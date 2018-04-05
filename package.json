@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "postinstall" :"ng serve --aot -prod"
+    "postinstall" :"ng serve --aot -prod",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -26,7 +26,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "bootstrap": "^4.0.0",
-    "express" ; 
+    "express": "^4.16.3",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
