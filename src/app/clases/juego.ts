@@ -13,15 +13,16 @@ export abstract class Juego {
       this.jugador=jugador;
     else
       this.jugador= "natalia natalia";
+      
   }
 
 
-  
 
-  public abstract verificar():boolean; 
-  
+
+  public abstract verificar():boolean;
+
   public retornarAyuda() {
-    
+
     return "NO hay Ayuda definida";
   }
 }

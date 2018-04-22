@@ -1,0 +1,9 @@
+{"operaciones":[
+        { "numero1": 40, "op": "+", "numero2": 3, "respuesta" : 43  },
+        { "numero1": 10, "op": "-", "numero2": 6, "respuesta" : 4  },
+        { "numero1": 20, "op": "%", "numero2": 5, "respuesta" : 4  },
+        { "numero1": 70, "op": "-", "numero2": 54,"respuesta" : 16  },
+        { "numero1": 50, "op": "+", "numero2": 34,"respuesta" : 84  },
+        { "numero1": 80, "op": "+", "numero2": 56,"respuesta" : 136  },
+        { "numero1": 90, "op": "*", "numero2": 4, "respuesta" : 360  }
+]}
