@@ -18,7 +18,7 @@ data: any;
             data.json();
             // the console.log(...) line prevents your code from working
             // either remove it or add the line below (return ...)
-            console.log("I CAN SEE DATA HERE: ", data.json());
+            //console.log("I CAN SEE DATA HERE: ", data.json());
             return data.json();
     });
     }
