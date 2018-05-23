@@ -1,0 +1,5 @@
+{"elementos":[
+        { "valor" : "0", "nombre": "piedra"},
+        {"valor" : "1" , "nombre" : "papel"},
+        {"valor" : "3", "nombre" : "tijera"}
+]}

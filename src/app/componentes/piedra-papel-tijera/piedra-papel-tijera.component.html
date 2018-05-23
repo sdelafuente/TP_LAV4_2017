@@ -1,0 +1,52 @@
+<!--p>
+  piedra-papel-tijera works!
+</p-->
+<div id="container">
+  <div>
+      <!--ul>
+          <li *ngFor="let elemento of arrayElementos" >
+            <button type="button" (click)=verificarJuego(elemento); name="{{elemento.nombre}}">
+                {{elemento.nombre}}
+            </button>
+          </li>
+      </ul-->
+
+      <p>
+          <button type="button" name="button" (click)="Piedra()">PIEDRA</button>
+      </p>
+      <p>
+          <button type="button" name="button" (click)="Papel()">PAPEL</button>
+      </p>
+      <p>
+          <button type="button" name="button" (click)="Tijera()">TIJERA</button>
+      </p>
+    </div>
+    <div>
+        <p >
+            {{nuevoJuego.MostrarResultado()}}
+        </p>
+    </div>
+    <div>
+        <p *ngIf="nuevoJuego.numeroRandom==1" align="center">
+            Piedra
+            <!--img src="./assets/imagenes/piedra.jpg" border="1" width="200px" height="120px"-->
+            <!--div >
+
+          </div-->
+        </p>
+        <p *ngIf="nuevoJuego.numeroRandom==2" align="center">
+            Papel
+            <!--img src="./assets/imagenes/piedra.jpg" border="1" width="200px" height="120px"-->
+            <!--div >
+
+          </div-->
+        </p>
+        <p *ngIf="nuevoJuego.numeroRandom==3" align="center">
+            Tijera
+            <!--img src="./assets/imagenes/piedra.jpg" border="1" width="200px" height="120px"-->
+            <!--div >
+
+          </div-->
+        </p>
+    </div>
+</div>

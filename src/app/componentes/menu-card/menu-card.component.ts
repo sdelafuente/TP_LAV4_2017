@@ -16,20 +16,20 @@ export class MenuCardComponent implements OnInit {
   Juego(tipo: string) {
     switch (tipo) {
       case 'Adivina':
-          this.router.navigate(['/Juegos/Adivina']);
-        break;
+                this.router.navigate(['/Juegos/Adivina']);
+                break;
       case 'Agilidad':
-          this.router.navigate(['/Juegos/Agilidad']);
-        break;
+                this.router.navigate(['/Juegos/Agilidad']);
+                break;
         case 'PPT':
-            this.router.navigate(['/Juegos/PiedraPapelTijera']);
-          break;
+                this.router.navigate(['/Juegos/PiedraPapelTijera']);
+                break;
       case 'AdivinaMasListado':
-          this.router.navigate(['/Juegos/AdivinaMasListado']);
-        break;
+                this.router.navigate(['/Juegos/AdivinaMasListado']);
+                break;
       case 'AgilidadaMasListado':
-          this.router.navigate(['/Juegos/AgilidadaMasListado']);
-        break;
+                this.router.navigate(['/Juegos/AgilidadaMasListado']);
+                break;
     }
   }
 }

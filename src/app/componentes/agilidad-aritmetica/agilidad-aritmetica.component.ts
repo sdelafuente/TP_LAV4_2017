@@ -6,13 +6,11 @@ import {TimerObservable} from "rxjs/observable/TimerObservable";
 
 import { ServicioAritmeticaService } from '../../servicios/servicio-aritmetica.service';
 
-
 @Component({
     selector: 'app-agilidad-aritmetica',
     templateUrl: './agilidad-aritmetica.component.html',
     styleUrls: ['./agilidad-aritmetica.component.css']
 })
-
 
 export class AgilidadAritmeticaComponent implements OnInit {
 
@@ -48,8 +46,7 @@ export class AgilidadAritmeticaComponent implements OnInit {
 
     }
 
-    CargarDatos()
-    {
+    CargarDatos(){
         this.servicio.httpGetPromise().subscribe(
             data => {
                 this.arrOperaciones = data.operaciones;

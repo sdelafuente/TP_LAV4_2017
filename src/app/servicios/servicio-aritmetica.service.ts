@@ -7,18 +7,15 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-
 @Injectable()
 export class ServicioAritmeticaService {
-data: any;
+    data: any;
     constructor(public http:Http) { }
 
     public httpGetPromise(){
         return this.http.get("../../assets/json/operaciones.json").map(data => {
             data.json();
             // the console.log(...) line prevents your code from working
-            // either remove it or add the line below (return ...)
-            //console.log("I CAN SEE DATA HERE: ", data.json());
             return data.json();
     });
     }

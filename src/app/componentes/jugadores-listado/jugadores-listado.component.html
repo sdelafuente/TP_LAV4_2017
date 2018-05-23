@@ -1,4 +1,5 @@
-<ul class="nav nav-pills nav-justified">
+<!-- ul class="nav nav-pills nav-justified" -->
+<ul class="">
   <li class="active"><a routerLink="/Principal">Ir a inicio</a></li>
   <li><a (click)="TraerTodos()">Todos los jugadores</a></li>
   <li><a (click)="TraerGanadores()">Los ganadores</a></li>
@@ -19,11 +20,11 @@
   <tbody>
     <tr *ngFor="let jugador of listado" >
       <td>{{jugador.usuario}} </td>
-      <td>{{jugador.cuit}} </td> 
-      <td>{{jugador.sexo | sexo| uppercase}} </td> 
-      <td>{{jugador.gano}} </td> 
-      
+      <td>{{jugador.cuit}} </td>
+      <td>{{jugador.sexo | sexo| uppercase}} </td>
+      <td>{{jugador.gano}} </td>
+
     </tr>
-   
+
   </tbody>
 </table>
